@@ -1,5 +1,4 @@
 from telethon import TelegramClient, events, utils, functions, types
-from config import API_ID, API_HASH, SESSION_NAME
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon.tl.functions.messages import GetHistoryRequest, GetAllStickersRequest, SearchGlobalRequest
 from telethon.tl.functions.channels import GetParticipantsRequest, JoinChannelRequest
