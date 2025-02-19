@@ -1,0 +1,5 @@
+telethon
+pillow
+psutil
+wikipedia
+aiohttp
