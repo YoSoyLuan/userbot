@@ -11,7 +11,10 @@ import asyncio
 import platform
 import psutil
 import time
+# Modifica tu código para usar variables de entorno
 import os
+API_ID = os.getenv('API_ID')
+API_HASH = os.getenv('API_HASH')
 import sys
 import wikipedia
 import random
