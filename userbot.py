@@ -13,7 +13,8 @@ import time
 # Modifica tu código para usar variables de entorno
 import os
 API_ID = '27468249'
-API_HASH = '458281447ab71aa601870024f635464c'
+API_HASH = '1AZWarzcBu7jqJtEVFv_Y3zJ2dTBTmQhhPt30zrfeEh20moeTMn_Sv_afW6xA6GKSKEqxIy6E3hFmOIQ6hVeKmuCtNNeeqoUKcJG3atKnzfVlQJooLacOskfAXwS5s_S32jo2dLcdMjtrJrYVmW3h0bb-zfZWhTVUJEmDf4tzUYOvIWsOwo-_Z_yh6ShhXh0IjCCudfDYXPCNVEwBkmwNdZFUdiVqrADLrtlWrYEQ3378HfcnIaI60hTvKUdFEDQlhHUSQAk8ZpqzHHIqeiGcNXxf9rXhbyinsUlSRaJ1AfDq1Un-aOadqj8-uMaCOH7rsOIEzg57JPfRO3DMYFGK2lQZ9Qbz3ZM='
+SESSION_PATH = '458281447ab71aa601870024f635464c'
 client = TelegramClient(SESSION_PATH, API_ID, API_HASH)
 import sys
 import wikipedia
