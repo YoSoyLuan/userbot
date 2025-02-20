@@ -12,9 +12,9 @@ import psutil
 import time
 # Modifica tu código para usar variables de entorno
 import os
-
-SESSION_PATH = os.getenv('SESSION_PATH', 'mi_userbot_session')
-client = TelegramClient(SESSION_PATH, 27468249, 458281447ab71aa601870024f635464c)
+API_ID = '27468249'
+API_HASH = '458281447ab71aa601870024f635464c'
+client = TelegramClient(SESSION_PATH, API_ID, API_HASH)
 import sys
 import wikipedia
 import random
