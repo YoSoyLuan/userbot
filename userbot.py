@@ -12,20 +12,9 @@ import psutil
 import time
 # Modifica tu código para usar variables de entorno
 import os
-from os import getenv
 
-# Configuration
-API_ID = getenv('API_ID')
-API_HASH = getenv('API_HASH')
-SESSION_NAME = getenv('SESSION_NAME', 'mi_userbot_session')
-WEATHER_API_KEY = getenv('WEATHER_API_KEY')
-
-# Verify required environment variables
-if not API_ID or not API_HASH:
-    raise ValueError("Please set API_ID and API_HASH environment variables")
-
-# Convert API_ID to integer
-API_ID = int(API_ID)
+SESSION_PATH = os.getenv('SESSION_PATH', 'mi_userbot_session')
+client = TelegramClient(SESSION_PATH, API_ID, API_HASH)
 import sys
 import wikipedia
 import random
