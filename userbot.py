@@ -14,7 +14,7 @@ import time
 import os
 
 SESSION_PATH = os.getenv('SESSION_PATH', 'mi_userbot_session')
-client = TelegramClient(SESSION_PATH, API_ID, API_HASH)
+client = TelegramClient(SESSION_PATH, 27468249, 458281447ab71aa601870024f635464c)
 import sys
 import wikipedia
 import random
